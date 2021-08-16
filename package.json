@@ -1,0 +1,26 @@
+{
+  "name": "lecture13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start:dev": "nodemon --exec \"ts-node index.ts\"",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@types/pg": "^8.6.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}
